@@ -46,21 +46,21 @@ $shadow-button: 0px 4px 2px rgba(0, 0, 0, 0.25);
 // ==================/==================
 @mixin typography-h1 {
   font-family: 'Vanguard-DemiBold', sans-serif;
-  font-size: 48px;
+  font-size: 64px;
   color: $color-text-primary;
   text-transform: uppercase;
 }
 
 @mixin typography-h2 {
   font-family: 'Vanguard-DemiBold', sans-serif;
-  font-size: 36px;
+  font-size: 48px;
   color: $color-text-primary;
   text-transform: uppercase;
 }
 
 @mixin typography-h3 {
   font-family: 'Vanguard-DemiBold', sans-serif;
-  font-size: 20px;
+  font-size: 36px;
   color: $color-text-primary;
   text-transform: uppercase;
 }
@@ -92,8 +92,7 @@ $shadow-button: 0px 4px 2px rgba(0, 0, 0, 0.25);
 }
 
 @mixin typography-link {
-  font-family: 'Vanguard-Regular', sans-serif;
-  font-size: 14px;
+
   color: $color-text-muted;
   text-decoration: underline;
   text-align: center;

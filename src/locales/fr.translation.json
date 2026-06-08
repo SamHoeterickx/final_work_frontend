@@ -1,5 +1,92 @@
 {
-    "home": {
-        "title": "Bienvenue chez BrewLingo"
+  "home": {
+    "title": "BrewLingo",
+    "subtitle": "Apprends le café. Vraiment.",
+    "allRightsReserved": "Tous droits réservés.",
+    "buttons": {
+      "privacyPolicy": "Politique de confidentialité",
+      "termsOfCondition": "Conditions d'utilisation"
+    },
+    "nav": {
+      "features": "Fonctionnalités",
+      "how": "Comment ça marche",
+      "tech": "Technologie"
+    },
+    "hero": {
+      "eyebrow": "Café de spécialité · Micro-apprentissage · 3D",
+        "title": "BrewLingo",
+      "sub": "BrewLingo transforme l'art complexe du café de spécialité en leçons courtes et ludiques  guidées par des îles 3D flottantes, pas par des manuels ennuyeux.",
+      "cta": "Commencer mon parcours",
+      "ghost": "Voir comment ça marche",
+      "scroll": "défiler"
+    },
+    "band": {
+      "item1": "Propulsé par la caféine.",
+      "item2": "Construit avec du code.",
+      "item3": "Duolingo pour le café."
+    },
+    "features": {
+      "label": "Ce que tu obtiens",
+      "title": "Tout pour élever ton niveau d'infusion",
+      "f1": {
+        "title": "Carte des chapitres 3D",
+        "body": "Explore ton parcours d'apprentissage à travers des îles flottantes interactives  chacune est un nouveau chapitre prêt à être débloqué."
+      },
+      "f2": {
+        "title": "Micro-apprentissage",
+        "body": "Pas de murs de texte. La théorie complexe de l'extraction est découpée en leçons courtes et percutantes que tu peux terminer entre deux infusions."
+      },
+      "f3": {
+        "title": "Onboarding intelligent",
+        "body": "Indique-nous ton équipement et ton niveau. BrewLingo génère un parcours personnalisé qui passe ce que tu sais déjà."
+      },
+      "f4": {
+        "title": "Séries & XP",
+        "body": "Des séries quotidiennes, des récompenses XP et des retours instantanés sur les quiz te motivent à revenir  un chapitre à la fois."
+      },
+      "f5": {
+        "title": "Multilingue",
+        "body": "Disponible en néerlandais, anglais et français. Le contenu s'adapte à toi, pas l'inverse."
+      },
+      "f6": {
+        "title": "iOS & Android",
+        "body": "Une seule base de code, deux plateformes. Construit avec React Native + Expo pour une expérience native sur chaque téléphone."
+      }
+    },
+    "how": {
+      "label": "Le parcours",
+      "title": "De zéro à barista en cinq étapes",
+      "s1": {
+        "title": "Télécharger & ouvrir",
+        "body": "Écran de démarrage. Première impression. Tu es déjà curieux."
+      },
+      "s2": {
+        "title": "Prise en charge intelligente",
+        "body": "Sélectionne ton équipement et ton niveau. Ta feuille de route personnalisée est générée sur-le-champ."
+      },
+      "s3": {
+        "title": "Explorer les îles",
+        "body": "Fais défiler les chapitres 3D sur le tableau de bord. Chaque île est un monde de connaissance caféinée."
+      },
+      "s4": {
+        "title": "Apprendre & quiz",
+        "body": "Des pages de théorie condensées, puis un quiz. Retour immédiat. XP gagné."
+      },
+      "s5": {
+        "title": "Appliquer en cuisine",
+        "body": "Ferme l'app. Prépare un café. Remarque la différence."
+      }
+    },
+    "quote": "Le café de spécialité n'est pas un produit fini  c'est une chaîne précise et ininterrompue de dévouement.",
+    "tech": {
+      "label": "Sous le capot",
+      "title": "Conçu pour la performance",
+      "body": "TypeScript de bout en bout. Une API GraphQL fortement typée entre NestJS et React Native, avec génération automatique de code pour que le front-end et le back-end restent toujours synchronisés. Three.js rend les îles 3D nativement sur mobile via React Three Fiber  fluide, économe en batterie, et vraiment impressionnant sur les appareils plus anciens."
+    },
+    "ctaBlock": {
+      "title": "Prêt à mieux infuser ?",
+      "sub": "Commence ton éducation café personnalisée aujourd'hui. Pas de manuels ennuyeux. Pas de vidéos passives. Juste toi, ton café et BrewLingo.",
+      "cta": "Commencer mon parcours"
     }
+  }
 }

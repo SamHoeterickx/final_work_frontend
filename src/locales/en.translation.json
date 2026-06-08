@@ -1,5 +1,92 @@
 {
     "home": {
-        "title": "Welkom by BrewLingo"
+        "title": "BrewLingo",
+        "subtitle": "Learn coffee. Actually learn it.",
+        "allRightsReserved": "All rights reserved.",
+        "buttons": {
+            "privacyPolicy": "Privacy Policy",
+            "termsOfCondition": "Terms of Service"
+        },
+        "nav": {
+            "features": "Features",
+            "how": "How it works",
+            "tech": "Tech"
+        },
+        "hero": {
+            "eyebrow": "Specialty coffee · Micro-learning · 3D",
+            "title": "BrewLingo",
+            "sub": "BrewLingo turns the complex craft of specialty coffee into bite-sized, gamified lessons  guided by floating 3D islands, not dry textbooks.",
+            "cta": "Start My Journey",
+            "ghost": "See how it works",
+            "scroll": "scroll"
+        },
+        "band": {
+            "item1": "Fuelled by caffeine.",
+            "item2": "Built with code.",
+            "item3": "Duolingo for coffee."
+        },
+        "features": {
+            "label": "What you get",
+            "title": "Everything to level up your brew",
+            "f1": {
+                "title": "3D Chapter Map",
+                "body": "Navigate your learning journey through interactive floating islands  each one a new chapter waiting to be unlocked."
+            },
+            "f2": {
+                "title": "Micro-learning",
+                "body": "No walls of text. Complex extraction theory is sliced into short, punchy lessons you can finish between brews."
+            },
+            "f3": {
+                "title": "Smart Onboarding",
+                "body": "Tell us your gear and experience level. BrewLingo generates a personalised roadmap that skips what you already know."
+            },
+            "f4": {
+                "title": "Streaks & XP",
+                "body": "Daily streaks, XP rewards and instant quiz feedback keep you motivated to come back  one chapter at a time."
+            },
+            "f5": {
+                "title": "Multilingual",
+                "body": "Available in Dutch, English and French. The content adapts to you, not the other way around."
+            },
+            "f6": {
+                "title": "iOS & Android",
+                "body": "One codebase, two platforms. Built with React Native + Expo so every phone feels native."
+            }
+        },
+        "how": {
+            "label": "The journey",
+            "title": "From zero to barista in five steps",
+            "s1": {
+                "title": "Download & open",
+                "body": "Splash screen. First impression. You're already curious."
+            },
+            "s2": {
+                "title": "Smart intake",
+                "body": "Select your hardware and level. Your personalised roadmap is generated on the spot."
+            },
+            "s3": {
+                "title": "Explore the islands",
+                "body": "Swipe through 3D chapters on the dashboard. Each island is a world of coffee knowledge."
+            },
+            "s4": {
+                "title": "Learn & quiz",
+                "body": "Bite-sized theory pages, then a quiz. Instant feedback. XP earned."
+            },
+            "s5": {
+                "title": "Apply in the kitchen",
+                "body": "Close the app. Make coffee. Notice the difference."
+            }
+        },
+        "quote": "Specialty coffee is not a final product  it is a precise, unbroken chain of dedication.",
+        "tech": {
+            "label": "Under the hood",
+            "title": "Built for performance",
+            "body": "End-to-end TypeScript. A strongly-typed GraphQL API between NestJS and React Native, with automatic code generation so front-end and back-end stay in sync forever. Three.js renders the 3D islands natively on mobile via React Three Fiber  smooth, battery-friendly, and genuinely impressive on older devices."
+        },
+        "ctaBlock": {
+            "title": "Ready to brew better?",
+            "sub": "Start your personalised coffee education today. No dry textbooks. No passive videos. Just you, your brew, and BrewLingo.",
+            "cta": "Start My Journey"
+        }
     }
 }

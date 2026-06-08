@@ -1,5 +1,92 @@
 {
     "home": {
-        "title": "Welkom bij BrewLingo"
+        "title": "BrewLingo",
+        "subtitle": "Leer koffie. Echt leren.",
+        "allRightsReserved": "Alle rechten voorbehouden.",
+        "buttons": {
+            "privacyPolicy": "Privacybeleid",
+            "termsOfCondition": "Gebruiksvoorwaarden"
+        },
+        "nav": {
+            "features": "Functies",
+            "how": "Hoe het werkt",
+            "tech": "Technologie"
+        },
+        "hero": {
+            "eyebrow": "Specialty coffee · Micro-learning · 3D",
+            "title": "BrewLingo",
+            "sub": "BrewLingo maakt de complexe wereld van specialty coffee behapbaar via korte, gamified lessen  begeleid door zwevende 3D-eilanden, niet door droge handboeken.",
+            "cta": "Start mijn reis",
+            "ghost": "Ontdek hoe het werkt",
+            "scroll": "scroll"
+        },
+        "band": {
+            "item1": "Gedreven door cafeïne.",
+            "item2": "Gebouwd met code.",
+            "item3": "Duolingo voor koffie."
+        },
+        "features": {
+            "label": "Wat je krijgt",
+            "title": "Alles om je brouw naar een hoger niveau te tillen",
+            "f1": {
+                "title": "3D-hoofdstukken",
+                "body": "Verken je leerpad via interactieve zwevende eilanden  elk eiland is een nieuw hoofdstuk dat wacht om ontgrendeld te worden."
+            },
+            "f2": {
+                "title": "Micro-learning",
+                "body": "Geen tekstmuren. Complexe extractietheorie wordt opgedeeld in korte, krachtige lessen die je tussen twee brouwen door afwerkt."
+            },
+            "f3": {
+                "title": "Slimme onboarding",
+                "body": "Vertel ons je apparatuur en ervaringsniveau. BrewLingo genereert een gepersonaliseerd leertraject dat overslaat wat je al weet."
+            },
+            "f4": {
+                "title": "Streaks & XP",
+                "body": "Dagelijkse streaks, XP-beloningen en directe quizfeedback motiveren je om terug te komen  één hoofdstuk per keer."
+            },
+            "f5": {
+                "title": "Meertalig",
+                "body": "Beschikbaar in Nederlands, Engels en Frans. De content past zich aan jou aan, niet andersom."
+            },
+            "f6": {
+                "title": "iOS & Android",
+                "body": "Één codebase, twee platformen. Gebouwd met React Native + Expo zodat elke telefoon native aanvoelt."
+            }
+        },
+        "how": {
+            "label": "De reis",
+            "title": "Van nul tot barista in vijf stappen",
+            "s1": {
+                "title": "Download & open",
+                "body": "Splashscreen. Eerste indruk. Je bent al nieuwsgierig."
+            },
+            "s2": {
+                "title": "Slimme intake",
+                "body": "Selecteer je apparatuur en niveau. Je persoonlijke roadmap wordt meteen aangemaakt."
+            },
+            "s3": {
+                "title": "Verken de eilanden",
+                "body": "Swipe door de 3D-hoofdstukken op het dashboard. Elk eiland is een wereld van koffiekennis."
+            },
+            "s4": {
+                "title": "Leer & quiz",
+                "body": "Compacte theoriepagina's, gevolgd door een quiz. Directe feedback. XP verdiend."
+            },
+            "s5": {
+                "title": "Pas toe in de keuken",
+                "body": "Sluit de app. Zet koffie. Merk het verschil."
+            }
+        },
+        "quote": "Specialty coffee is geen eindproduct  het is een nauwkeurige, ononderbroken keten van toewijding.",
+        "tech": {
+            "label": "Onder de motorkap",
+            "title": "Gebouwd voor performance",
+            "body": "End-to-end TypeScript. Een sterk getypeerde GraphQL API tussen NestJS en React Native, met automatische codegeneratie zodat front-end en back-end altijd gesynchroniseerd blijven. Three.js rendert de 3D-eilanden native op mobiel via React Three Fiber  vloeiend, zuinig voor de batterij, en indrukwekkend op oudere toestellen."
+        },
+        "ctaBlock": {
+            "title": "Klaar om beter te brouwen?",
+            "sub": "Start vandaag nog met je gepersonaliseerde koffieopleiding. Geen droge handboeken. Geen passieve video's. Alleen jij, jouw brouw en BrewLingo.",
+            "cta": "Start mijn reis"
+        }
     }
 }
