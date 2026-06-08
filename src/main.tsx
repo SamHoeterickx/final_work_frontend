@@ -1,11 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { App } from './modules/app/App'
+import { RouterApp } from './router'
+import { initI18n } from './i18n'
 
-import '@/i18n.ts';
+const localeFromPath = (window.location.pathname || '').split('/')?.[1];
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+// Initialize i18n based on URL locale, then mount app
+initI18n(localeFromPath).then(() => {
+  createRoot(document.getElementById('root')!).render(
+    <StrictMode>
+      <RouterApp />
+    </StrictMode>,
+  )
+})
