@@ -1,0 +1,9 @@
+@import "../../styles/_design.system";
+
+.cApp {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: $color-background;
+    
+    padding: 2dvh 5dvw;
+}
