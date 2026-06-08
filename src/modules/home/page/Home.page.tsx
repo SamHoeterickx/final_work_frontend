@@ -3,19 +3,14 @@ import { useTranslation } from 'react-i18next';
 import cxBind from 'classnames/bind';
 import styles from './home.module.scss';
 import { Link } from '@tanstack/react-router';
-import { ELocales } from '@shared/types/enum';
 import mokaPotImage from '@/assets/images/moka_pot_island.png';
-import logo from '@/assets/images/brewlingo_logo_v2.png';
 import floatingIsland from '@/assets/images/floating_island.png';
+import { HOME_REDIRECT_PATH } from '../home.const';
 
 const cx = cxBind.bind(styles);
 
 export const HomePage: FC = () => {
-    const { t, i18n } = useTranslation();
-    const lang = Object.values(ELocales).includes(i18n.language as ELocales)
-        ? i18n.language
-        : ELocales.NL;
-    const homePath = `/${lang}/`;
+    const { t } = useTranslation();
 
     const FEATURES = [
         {
@@ -46,27 +41,13 @@ export const HomePage: FC = () => {
 
     return (
         <div className={cx('cHome')}>
-            <nav className={cx('cNav')}>
-                <img src={logo} className={cx('cNav__logo')} />
-                <div className={cx('cNav__links')}>
-                    <a href="#features" className={cx('cNav__link')}>
-                        {t('home.nav.features')}
-                    </a>
-                    <a href="#how" className={cx('cNav__link')}>
-                        {t('home.nav.how')}
-                    </a>
-                    <a href="#tech" className={cx('cNav__link')}>
-                        {t('home.nav.tech')}
-                    </a>
-                </div>
-            </nav>
-
+            
             <section className={cx('cHero')}>
                 <div className={cx('cHero__eyebrow')}>{t('home.hero.eyebrow')}</div>
                 <h1 className={cx('cHero__title')}>{t('home.hero.title')}</h1>
                 <p className={cx('cHero__sub')}>{t('home.hero.sub')}</p>
                 <div className={cx('cHero__actions')}>
-                    <Link to={homePath} className={cx('cHero__cta')}>
+                    <Link to={HOME_REDIRECT_PATH} className={cx('cHero__cta')}>
                         {t('home.hero.cta')}
                     </Link>
                     <a href="#how" className={cx('cHero__ghost')}>
@@ -75,7 +56,7 @@ export const HomePage: FC = () => {
                 </div>
 
                 <div className={cx('cHero__island')}>
-                    <Link to={homePath}>
+                    <Link to={HOME_REDIRECT_PATH}>
                         <img
                             src={mokaPotImage}
                             alt="Moka pot on a floating island"
@@ -91,7 +72,6 @@ export const HomePage: FC = () => {
                 </div>
             </section>
 
-            {/* ── FEATURES ── */}
             <section id="features" className={cx('cFeatures')}>
                 <p className={cx('cSection__label')}>{t('home.features.label')}</p>
                 <h2 className={cx('cSection__title')}>{t('home.features.title')}</h2>
@@ -100,7 +80,10 @@ export const HomePage: FC = () => {
                     {FEATURES.map((f) => (
                         <div key={f.title} className={cx('cFeatures__card')}>
                             <div className={cx('cFeatures__header')}>
-                                <img className={cx('cFeatures__header__icon')} src={floatingIsland} />
+                                <img
+                                    className={cx('cFeatures__header__icon')}
+                                    src={floatingIsland}
+                                />
                                 <h3 className={cx('cFeatures__header__cardTitle')}>{f.title}</h3>
                             </div>
                             <p className={cx('cFeatures__cardBody')}>{f.body}</p>
@@ -180,7 +163,7 @@ export const HomePage: FC = () => {
             <section className={cx('cCtaBlock')}>
                 <h2 className={cx('cCtaBlock__title')}>{t('home.ctaBlock.title')}</h2>
                 <p className={cx('cCtaBlock__sub')}>{t('home.ctaBlock.sub')}</p>
-                <Link to={homePath} className={cx('cHero__cta')}>
+                <Link to={HOME_REDIRECT_PATH} className={cx('cHero__cta')}>
                     {t('home.ctaBlock.cta')}
                 </Link>
             </section>

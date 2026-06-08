@@ -88,5 +88,11 @@
             "sub": "Start your personalised coffee education today. No dry textbooks. No passive videos. Just you, your brew, and BrewLingo.",
             "cta": "Start My Journey"
         }
+    },
+    "notFound": {
+        "message": "Sorry, the page you're looking for doesn't exist.",
+        "buttons": {
+            "goHome": "Ga naar de startpagina"
+        }
     }
 }

@@ -1,0 +1,36 @@
+@import '../../../styles/_design.system';
+
+.cNav {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1.1rem 2.5rem;
+    font-family: 'Vanguard CF';
+
+    &__logo {
+        width: 10rem;
+    }
+
+    &__links {
+        display: flex;
+        gap: 2rem;
+    }
+
+    &__link {
+        font-size: 1rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $color-text-muted;
+        text-decoration: none;
+        transition: color 0.2s;
+        font-weight: 500;
+
+        &:hover {
+            color: $color-text-inverted;
+        }
+    }
+}

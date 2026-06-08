@@ -88,5 +88,11 @@
             "sub": "Start vandaag nog met je gepersonaliseerde koffieopleiding. Geen droge handboeken. Geen passieve video's. Alleen jij, jouw brouw en BrewLingo.",
             "cta": "Start mijn reis"
         }
+    },
+    "notFound": {
+        "message": "Sorry, de pagina die u zoekt bestaat niet.",
+        "buttons": {
+            "goHome": "aller à la page d'accueil"
+        }
     }
 }

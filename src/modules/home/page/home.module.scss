@@ -8,40 +8,6 @@
     overflow-x: hidden;
 }
 
-.cNav {
-    max-width: 1200px;
-    margin: 0 auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 1.1rem 2.5rem;
-
-    &__logo {
-        width: 10rem;
-    }
-
-    &__links {
-        display: flex;
-        gap: 2rem;
-    }
-
-    &__link {
-        font-size: 1rem;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: $color-text-muted;
-        text-decoration: none;
-        transition: color 0.2s;
-        font-weight: 500;
-
-        &:hover {
-            color: $color-text-inverted;
-        }
-    }
-}
-
 .cHero {
     max-width: 1200px;
     min-height: 94vh;
@@ -74,7 +40,6 @@
         font-size: clamp(3rem, 8vw, 6.5rem);
         font-weight: 800;
         line-height: 1;
-        letter-spacing: -0.02em;
         margin: 0 0 1.5rem;
         opacity: 0;
         animation: fadeUp 0.7s 0.25s ease forwards;

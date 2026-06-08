@@ -1,0 +1,85 @@
+@import '@/styles/base.scss';
+@import '@/styles/_design.system';
+
+.cNotFound {
+    min-height: 80dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem 2rem;
+
+    font-family: 'Vanguard CF';
+    text-align: center;
+
+    position: relative;
+
+    z-index: 1;
+
+    &__background {
+        position: absolute;
+        width: 100dvh;
+        height: 100%;
+
+        z-index: -1;
+
+        opacity: 0.2;
+
+        background-image: url('../../../assets/images/moka_pot_island.png');
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__code {
+        font-size: 6rem;
+        font-weight: 800;
+        line-height: 1;
+        margin-bottom: 1rem;
+        color: $color-text-inverted;
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: $color-text-primary;
+    }
+
+    &__message {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: $color-text-primary;
+        margin-bottom: 2rem;
+        max-width: 500px;
+    }
+
+    &__cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: $color-text-inverted;
+        color: #fff;
+        font-family: 'Vanguard CF', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 3rem;
+        border-radius: 60px;
+        transition:
+            background 0.25s,
+            transform 0.15s;
+
+        &:hover {
+            background: $color-text-inverted;
+            transform: translateY(-2px);
+        }
+        &:active {
+            transform: translateY(0);
+        }
+    }
+}

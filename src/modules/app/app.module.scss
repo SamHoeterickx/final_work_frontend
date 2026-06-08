@@ -3,8 +3,13 @@
 .cApp {
     width: 100dvw;
     height: 100dvh;
+
     background-color: $color-background;
     overflow-x: hidden;
 
     scroll-behavior: smooth;
+
+    &__outlet {
+        min-height: 80dvh;
+    }
 }
