@@ -1,5 +1,6 @@
 {
     "home": {
+        "pageTitle": "Home",
         "title": "BrewLingo",
         "subtitle": "Apprends le café. Vraiment.",
         "allRightsReserved": "Tous droits réservés.",
@@ -96,6 +97,7 @@
         }
     },
     "privacyPolicy": {
+        "pageTitle": "Politique de confidentialité",
         "title": "Politique de confidentialité",
         "intro": "Chez BrewLingo, nous prenons votre vie privée au sérieux. Cette politique de confidentialité explique quelles données nous collectons, comment nous les utilisons et comment nous les protégeons.",
         "section1Title": "1. Données que nous collectons",
@@ -109,6 +111,7 @@
         "footer": "Dernière mise à jour : juin 2026."
     },
     "termsOfCondition": {
+        "pageTitle": "Conditions générales d'utilisation",
         "title": "Conditions générales d'utilisation",
         "intro": "Bienvenue sur BrewLingo ! En utilisant notre application, vous acceptez ces conditions générales d'utilisation. Veuillez les lire attentivement.",
         "section1Title": "1. Utilisation de l'application",

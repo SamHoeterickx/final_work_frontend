@@ -10,4 +10,7 @@ export const WILDCARD_ROUTE = createRoute({
     getParentRoute: () => rootRoute,
     path: '*',
     component: NotFoundPage,
+    beforeLoad: () => (
+        document.title = '404 Not Found | BrewLingo'
+    )
 });

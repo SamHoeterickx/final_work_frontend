@@ -1,5 +1,6 @@
 {
     "home": {
+        "pageTitle": "Home",
         "title": "BrewLingo",
         "subtitle": "Leer koffie. Echt leren.",
         "allRightsReserved": "Alle rechten voorbehouden.",
@@ -96,6 +97,7 @@
         }
     },
     "privacyPolicy": {
+        "pageTitle": "Privacybeleid",
         "title": "Privacybeleid",
         "intro": "Bij BrewLingo nemen we jouw privacy serieus. In dit privacybeleid leggen we uit welke gegevens we verzamelen, hoe we ze gebruiken en hoe we ze beschermen.",
         "section1Title": "1. Gegevens die we verzamelen",
@@ -109,6 +111,7 @@
         "footer": "Laatst bijgewerkt: juni 2026."
     },
     "termsOfCondition": {
+        "pageTitle": "Algemene voorwaarden",
         "title": "Algemene voorwaarden",
         "intro": "Welkom bij BrewLingo! Door onze app te gebruiken, ga je akkoord met deze algemene voorwaarden. Lees ze zorgvuldig door.",
         "section1Title": "1. Gebruik van de app",

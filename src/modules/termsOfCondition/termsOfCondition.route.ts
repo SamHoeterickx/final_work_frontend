@@ -1,5 +1,8 @@
 import { createRoute, redirect } from '@tanstack/react-router';
 
+// MODULES
+import i18n from '@/i18n';
+
 // ROUTES
 import { rootRoute } from '@/router';
 
@@ -19,9 +22,12 @@ export const TERMS_ROUTE = createRoute({
     getParentRoute: () => rootRoute,
     path: TERMS_OF_CONDITION_PATH,
     component: TermsOfConditionPage,
-    beforeLoad: ({ params }) => {
+    beforeLoad: async({ params }) => {
         if (!isValidLocale(params.locale)) {
             throw redirect({ to: '/*' });
         }
+
+        await i18n.changeLanguage(params.locale);
+        document.title = `${i18n.t('termsOfCondition.pageTitle')} | BrewLingo`;
     },
 });

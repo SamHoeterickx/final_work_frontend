@@ -34,3 +34,14 @@
         }
     }
 }
+
+@media (max-width: 800px) {
+    .cNav {
+        display: flex;
+        justify-content: center;
+        
+        &__links {
+            display: none;
+        }
+    }
+}
