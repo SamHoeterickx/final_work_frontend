@@ -1,6 +1,12 @@
-import { rootRoute } from '@/router';
 import { createRoute, redirect } from '@tanstack/react-router';
+
+// ROUTES
+import { rootRoute } from '@/router';
+
+// PAGES
 import { HomePage } from './page/Home.page';
+
+// CONSTANTS
 import { HOMEPAGE_PATH } from './home.const';
 
 const VALID_LOCALES = ['en', 'nl', 'fr'] as const;

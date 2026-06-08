@@ -1,0 +1,192 @@
+@import './_design.system';
+
+.cPage {
+    min-height: 100vh;
+    background-color: $color-background;
+    font-family: 'Vanguard CF', 'Helvetica Neue', Helvetica, sans-serif;
+    color: $color-text-primary;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.cMain {
+    flex: 1;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 6rem 2.5rem 5rem;
+    width: 100%;
+}
+
+.cHeader {
+    margin-bottom: 5rem;
+
+    &__eyebrow {
+        font-size: 1rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: $color-text-inverted;
+        margin-bottom: 1.5rem;
+        opacity: 0;
+        animation: fadeUp 0.6s 0.1s ease forwards;
+    }
+
+    &__title {
+        font-size: clamp(3rem, 8vw, 6.5rem);
+        font-weight: 800;
+        line-height: 1;
+        margin: 0 0 1.5rem;
+        opacity: 0;
+        animation: fadeUp 0.7s 0.25s ease forwards;
+    }
+
+
+    &__intro {
+        font-size: 1.05rem;
+        line-height: 1.75;
+        color: $color-text-muted;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        max-width: 640px;
+        margin: 0;
+        opacity: 0;
+        animation: fadeUp 0.6s 0.25s ease forwards;
+    }
+}
+
+.cSections {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid $color-border;
+    margin-left: 1rem;
+}
+
+.cSection {
+    display: flex;
+    gap: 2.5rem;
+    padding: 3rem 0 3rem 3rem;
+    position: relative;
+    opacity: 0;
+    animation: fadeUp 0.6s ease forwards;
+
+    &:nth-child(1) {
+        animation-delay: 0.35s;
+    }
+    &:nth-child(2) {
+        animation-delay: 0.45s;
+    }
+    &:nth-child(3) {
+        animation-delay: 0.55s;
+    }
+    &:nth-child(4) {
+        animation-delay: 0.65s;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: -9px;
+        top: 3.5rem;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: $color-background;
+        border: 2px solid $color-text-inverted;
+        transition: background 0.2s;
+    }
+
+    &:hover::before {
+        background: $color-text-inverted;
+    }
+
+    &__stepNum {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        color: $color-text-inverted;
+        padding-top: 0.2rem;
+        min-width: 28px;
+        flex-shrink: 0;
+    }
+
+    &__body {
+        flex: 1;
+    }
+
+    &__stepTitle {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0 0 0.5rem;
+        letter-spacing: 0.01em;
+    }
+
+    &__stepBody {
+        font-size: 1rem;
+        line-height: 1.65;
+        color: $color-text-muted;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        margin: 0;
+    }
+}
+
+.cFooterNote {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    opacity: 0;
+    animation: fadeUp 0.6s 0.8s ease forwards;
+
+    &__line {
+        flex-shrink: 0;
+        width: 40px;
+        height: 1px;
+        background: $color-border;
+    }
+
+    &__text {
+        font-size: 0.8rem;
+        letter-spacing: 0.05em;
+        color: $color-text-muted;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        margin: 0;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 640px) {
+    .cMain {
+        padding: 4rem 1.25rem 4rem;
+    }
+
+    .cHeader {
+        margin-bottom: 3rem;
+    }
+
+    .cSections {
+        margin-left: 0.5rem;
+    }
+
+    .cSection {
+        gap: 1.25rem;
+        padding: 2rem 0 2rem 1.75rem;
+
+        &__num {
+            display: none;
+        }
+
+        &__title {
+            font-size: 1.2rem;
+        }
+    }
+}

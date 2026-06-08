@@ -1,6 +1,12 @@
-import { rootRoute } from '@/router';
 import { createRoute, redirect } from '@tanstack/react-router';
+
+// ROUTES
+import { rootRoute } from '@/router';
+
+// PAGES
 import { TermsOfConditionPage } from './page/TermsOfCondition.page';
+
+// CONSTANTS
 import { TERMS_OF_CONDITION_PATH } from './termsOfCondition.const';
 
 const VALID_LOCALES = ['en', 'nl', 'fr'] as const;

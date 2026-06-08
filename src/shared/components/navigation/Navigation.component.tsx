@@ -1,12 +1,17 @@
 import type { FC } from 'react';
-import logo from '@/assets/images/brewlingo_logo_v2.png';
+import { useTranslation } from 'react-i18next';
+import { Link } from '@tanstack/react-router';
 import cxBind from 'classnames/bind';
+
+// ASSETS
+import logo from '@/assets/images/brewlingo_logo_v2.png';
+
+// CONSTANTS
+import { HOME_REDIRECT_PATH } from '@/modules/home/home.const';
 
 // STYLES
 import styles from './navigation.module.scss';
-import { useTranslation } from 'react-i18next';
-import { Link } from '@tanstack/react-router';
-import { HOME_REDIRECT_PATH } from '@/modules/home/home.const';
+
 const cx = cxBind.bind(styles);
 
 export const Navigation: FC = () => {

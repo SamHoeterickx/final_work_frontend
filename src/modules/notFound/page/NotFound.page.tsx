@@ -1,11 +1,14 @@
 import type { FC } from 'react';
 import { Link, useRouter } from '@tanstack/react-router';
-import cxBind from 'classnames/bind';
 import { useTranslation } from 'react-i18next';
+import cxBind from 'classnames/bind';
+
+// CONSTANTS
 import { HOME_REDIRECT_PATH } from '@/modules/home/home.const';
 
 // STYLES
 import styles from './notFound.module.scss';
+
 const cx = cxBind.bind(styles);
 
 export const NotFoundPage: FC = () => {

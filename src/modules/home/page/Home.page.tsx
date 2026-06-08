@@ -1,11 +1,17 @@
 import type { FC } from 'react';
 import { useTranslation } from 'react-i18next';
-import cxBind from 'classnames/bind';
-import styles from './home.module.scss';
 import { Link } from '@tanstack/react-router';
+import cxBind from 'classnames/bind';
+
+// ASSETS
 import mokaPotImage from '@/assets/images/moka_pot_island.png';
 import floatingIsland from '@/assets/images/floating_island.png';
+
+// CONSTANTS
 import { HOME_REDIRECT_PATH } from '../home.const';
+
+// STYLES
+import styles from './home.module.scss';
 
 const cx = cxBind.bind(styles);
 
@@ -41,7 +47,6 @@ export const HomePage: FC = () => {
 
     return (
         <div className={cx('cHome')}>
-            
             <section className={cx('cHero')}>
                 <div className={cx('cHero__eyebrow')}>{t('home.hero.eyebrow')}</div>
                 <h1 className={cx('cHero__title')}>{t('home.hero.title')}</h1>

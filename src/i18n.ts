@@ -1,9 +1,9 @@
-import i18n from "i18next";
+import i18n from 'i18next';
 import resourcesToBackend from 'i18next-resources-to-backend';
 import { initReactI18next } from 'react-i18next';
 
-
-import { ELocales } from '@shared/types/enum'
+// TYPES
+import { ELocales } from '@shared/types/enum';
 
 function resolveLocaleImport(language: string) {
     switch (language) {
@@ -20,9 +20,7 @@ function resolveLocaleImport(language: string) {
 
 export function initI18n(language?: string) {
     return i18n
-        .use(
-            resourcesToBackend((lng: string) => resolveLocaleImport(lng))
-        )
+        .use(resourcesToBackend((lng: string) => resolveLocaleImport(lng)))
         .use(initReactI18next)
         .init({
             lng: language ?? ELocales.NL,
