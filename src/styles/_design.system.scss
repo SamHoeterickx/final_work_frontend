@@ -1,0 +1,100 @@
+// ==================/==================
+// COLORS
+// ==================/==================
+$color-primary: #465E3C;
+$color-secondary: #222222;
+$color-background: #E8DFD3;
+$color-dark-background: #D6D0C9;
+
+$color-text-primary: #222222;
+$color-text-secondary: #FFFFFF;
+$color-text-muted: #696969;
+$color-text-inverted: #465E3C;
+
+$color-success: transparent; // Let op: was leeg ('#') in TS
+$color-warning: transparent; // Let op: was leeg ('#') in TS
+$color-error: #A63C3C;
+
+$color-border: #465E3C;
+$color-shadow: #000000;
+
+// ==================/==================
+// SPACING
+// ==================/==================
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+
+// ==================/==================
+// BORDER RADIUS
+// ==================/==================
+$border-radius-sm: 8px;
+$border-radius-md: 16px;
+$border-radius-lg: 24px;
+$border-radius-full: 9999px;
+
+// ==================/==================
+// SHADOWS
+// ==================/==================
+$shadow-button: 0px 4px 2px rgba(0, 0, 0, 0.25);
+
+// ==================/==================
+// TYPOGRAPHY MIXINS
+// ==================/==================
+@mixin typography-h1 {
+  font-family: 'Vanguard-DemiBold', sans-serif;
+  font-size: 48px;
+  color: $color-text-primary;
+  text-transform: uppercase;
+}
+
+@mixin typography-h2 {
+  font-family: 'Vanguard-DemiBold', sans-serif;
+  font-size: 36px;
+  color: $color-text-primary;
+  text-transform: uppercase;
+}
+
+@mixin typography-h3 {
+  font-family: 'Vanguard-DemiBold', sans-serif;
+  font-size: 20px;
+  color: $color-text-primary;
+  text-transform: uppercase;
+}
+
+@mixin typography-h4 {
+  font-family: 'Vanguard-Regular', sans-serif;
+  font-size: 20px;
+  color: $color-text-primary;
+  text-transform: uppercase;
+}
+
+@mixin typography-body {
+  font-family: 'helvetica', sans-serif;
+  font-size: 14px;
+  color: $color-text-primary;
+}
+
+@mixin typography-body-small {
+  font-family: 'helvetica', sans-serif;
+  font-size: 14px;
+  color: $color-text-primary;
+}
+
+@mixin typography-caption {
+  font-family: 'helvetica', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: $color-text-muted;
+}
+
+@mixin typography-link {
+  font-family: 'Vanguard-Regular', sans-serif;
+  font-size: 14px;
+  color: $color-text-muted;
+  text-decoration: underline;
+  text-align: center;
+}
