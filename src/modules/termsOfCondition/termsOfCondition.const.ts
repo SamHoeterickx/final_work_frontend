@@ -1,1 +1,1 @@
-export const TERMS_OF_CONDITION_PATH = '/termsOfCondition'
+export const TERMS_OF_CONDITION_PATH = '/:locale/termsOfCondition'

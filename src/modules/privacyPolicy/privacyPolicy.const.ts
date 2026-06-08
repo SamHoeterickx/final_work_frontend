@@ -1,1 +1,1 @@
-export const PRIVACY_POLICY_PATH = '/privacyPolicy'
+export const PRIVACY_POLICY_PATH = '/:locale/privacyPolicy'

@@ -1,6 +1,5 @@
-import { Outlet } from "@tanstack/react-router";
-import type { FC } from "react";
+import type { FC, PropsWithChildren } from "react";
 
-export const App: FC = () => {
-    return <Outlet />
+export const App: FC<PropsWithChildren> = ({ children }) => {
+    return <>{children}</>
 }

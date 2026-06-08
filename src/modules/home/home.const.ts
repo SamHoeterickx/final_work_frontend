@@ -1,1 +1,1 @@
-export const HOMEPAGE_PATH = '/';
+export const HOMEPAGE_PATH = '/:locale/';

@@ -1,5 +1,6 @@
 export enum ELocales {
     EN = 'en',
     NL = 'nl',
-    FR = 'fr'
+    FR = 'fr',
+    includes = "includes"
 }
