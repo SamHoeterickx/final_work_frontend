@@ -123,5 +123,16 @@
         "section4Title": "4. Disclaimers",
         "section4Content": "The information provided in this app is strictly for educational purposes. Although we aim for the highest quality and accuracy in our coffee science, we are not liable for any brewing mistakes, failed espresso extractions, or equipment damage resulting from following our guides.",
         "footer": "Last updated: June 2026."
+    },
+    "deleteData": {
+        "pageTitle": "Delete Account Data",
+        "title": "Delete Account Data",
+        "intro": "If you wish to delete your account and all associated data from BrewLingo, you can do so directly within the app.",
+        "section1Title": "1. Open the App",
+        "section1Content": "Launch the BrewLingo app on your iOS or Android device and ensure you are logged in.",
+        "section2Title": "2. Go to Account Settings",
+        "section2Content": "Navigate to your profile or account settings from the main dashboard.",
+        "section3Title": "3. Delete Account",
+        "section3Content": "Scroll to the bottom and tap 'Delete Account'. Confirm your choice. Please note that this action is irreversible and all your progress, streaks, and XP will be permanently lost."
     }
 }

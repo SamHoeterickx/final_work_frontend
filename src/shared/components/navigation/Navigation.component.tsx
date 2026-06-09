@@ -17,7 +17,7 @@ export const Navigation: FC = () => {
     return (
         <nav className={cx('cNav')}>
             <Link to={HOME_REDIRECT_PATH}>
-                <img src={'images/brewlingo_logo_v2.png'} className={cx('cNav__logo')} />
+                <img src={'/images/brewlingo_logo_v2.png'} className={cx('cNav__logo')} />
             </Link>
             <div className={cx('cNav__links')}>
                 <a href="#features" className={cx('cNav__link')}>

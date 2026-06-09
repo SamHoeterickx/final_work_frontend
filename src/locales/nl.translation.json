@@ -15,7 +15,7 @@
         },
         "hero": {
             "eyebrow": "Specialty coffee · Micro-learning · 3D",
-            "title": "BrewLingo V1.0.0",
+            "title": "BrewLingo",
             "sub": "BrewLingo maakt de complexe wereld van specialty coffee behapbaar via korte, gamified lessen  begeleid door zwevende 3D-eilanden, niet door droge handboeken.",
             "cta": "Start mijn reis",
             "ghost": "Ontdek hoe het werkt",
@@ -123,5 +123,16 @@
         "section4Title": "4. Disclaimers",
         "section4Content": "De informatie in deze app is puur educatief. Hoewel we streven naar de hoogste kwaliteit en accuraatheid in onze koffiewetenschap, zijn we niet aansprakelijk voor eventuele zetfouten, mislukte espresso-extracties of schade aan apparatuur door het opvolgen van gidsen.",
         "footer": "Laatst bijgewerkt: juni 2026."
+    },
+    "deleteData": {
+        "pageTitle": "Accountgegevens verwijderen",
+        "title": "Accountgegevens verwijderen",
+        "intro": "Als je je account en alle bijbehorende gegevens van BrewLingo wilt verwijderen, kun je dit direct in de app doen.",
+        "section1Title": "1. Open de app",
+        "section1Content": "Start de BrewLingo-app op je iOS- of Android-apparaat en zorg ervoor dat je bent ingelogd.",
+        "section2Title": "2. Ga naar Accountinstellingen",
+        "section2Content": "Navigeer naar je profiel of accountinstellingen vanaf het hoofddashboard.",
+        "section3Title": "3. Account verwijderen",
+        "section3Content": "Scroll naar beneden en tik op 'Account verwijderen'. Bevestig je keuze. Let op: deze actie is onomkeerbaar en al je voortgang, streaks en XP gaan permanent verloren."
     }
 }

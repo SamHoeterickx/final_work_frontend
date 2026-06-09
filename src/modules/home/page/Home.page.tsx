@@ -59,7 +59,7 @@ export const HomePage: FC = () => {
                 <div className={cx('cHero__island')}>
                     <Link to={HOME_REDIRECT_PATH}>
                         <img
-                            src={'images/moka_pot_island.png'}
+                            src={'/images/moka_pot_island.png'}
                             alt="Moka pot on a floating island"
                             className={cx('cHero__islandImg')}
                         />
@@ -83,7 +83,7 @@ export const HomePage: FC = () => {
                             <div className={cx('cFeatures__header')}>
                                 <img
                                     className={cx('cFeatures__header__icon')}
-                                    src={'images/floating_island.png'}
+                                    src={'/images/floating_island.png'}
                                 />
                                 <h3 className={cx('cFeatures__header__cardTitle')}>{f.title}</h3>
                             </div>

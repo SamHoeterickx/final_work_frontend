@@ -123,5 +123,16 @@
         "section4Title": "4. Limites de responsabilité",
         "section4Content": "Les informations contenues dans cette application sont purement éducatives. Bien que nous visions la plus haute qualité et précision dans notre science du café, nous ne saurions être tenus responsables des erreurs d'extraction, des espressos ratés ou des dommages matériels causés par le suivi de nos guides.",
         "footer": "Dernière mise à jour : juin 2026."
+    },
+    "deleteData": {
+        "pageTitle": "Supprimer les données du compte",
+        "title": "Supprimer les données du compte",
+        "intro": "Si vous souhaitez supprimer votre compte et toutes les données associées de BrewLingo, vous pouvez le faire directement dans l'application.",
+        "section1Title": "1. Ouvrir l'application",
+        "section1Content": "Lancez l'application BrewLingo sur votre appareil iOS ou Android et assurez-vous d'être connecté.",
+        "section2Title": "2. Aller aux paramètres du compte",
+        "section2Content": "Naviguez vers votre profil ou les paramètres de votre compte depuis le tableau de bord principal.",
+        "section3Title": "3. Supprimer le compte",
+        "section3Content": "Faites défiler vers le bas et appuyez sur 'Supprimer le compte'. Confirmez votre choix. Veuillez noter que cette action est irréversible et que toute votre progression, vos séries et vos XP seront définitivement perdus."
     }
 }

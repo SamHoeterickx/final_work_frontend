@@ -10,6 +10,7 @@ import { PRIVACY_POLICY_ROUTE } from '@modules/privacyPolicy/privacyPolicy.route
 import { TERMS_ROUTE } from '@modules/termsOfCondition/termsOfCondition.route';
 import { INDEX_ROUTE } from '@modules/app/index.route';
 import { WILDCARD_ROUTE } from '@modules/notFound/notFound.route';
+import { DELETE_DATA_ROUTE } from './modules/deleteData/deleteData.route';
 
 export const rootRoute = createRootRoute({
     component: App,
@@ -21,6 +22,7 @@ const routeTree = rootRoute.addChildren([
     PRIVACY_POLICY_ROUTE,
     TERMS_ROUTE,
     WILDCARD_ROUTE,
+    DELETE_DATA_ROUTE
 ]);
 
 export const router = createRouter({
