@@ -3,10 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { Link } from '@tanstack/react-router';
 import cxBind from 'classnames/bind';
 
-// ASSETS
-import mokaPotImage from '@/assets/images/moka_pot_island.png';
-import floatingIsland from '@/assets/images/floating_island.png';
-
 // CONSTANTS
 import { HOME_REDIRECT_PATH } from '../home.const';
 
@@ -63,7 +59,7 @@ export const HomePage: FC = () => {
                 <div className={cx('cHero__island')}>
                     <Link to={HOME_REDIRECT_PATH}>
                         <img
-                            src={mokaPotImage}
+                            src={'images/moka_pot_island.png'}
                             alt="Moka pot on a floating island"
                             className={cx('cHero__islandImg')}
                         />
@@ -87,7 +83,7 @@ export const HomePage: FC = () => {
                             <div className={cx('cFeatures__header')}>
                                 <img
                                     className={cx('cFeatures__header__icon')}
-                                    src={floatingIsland}
+                                    src={'images/floating_island.png'}
                                 />
                                 <h3 className={cx('cFeatures__header__cardTitle')}>{f.title}</h3>
                             </div>

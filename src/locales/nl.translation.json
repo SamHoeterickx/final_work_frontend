@@ -1,7 +1,7 @@
 {
     "home": {
         "pageTitle": "Home",
-        "title": "BrewLingo",
+        "title": "BrewLingo V1.0.0",
         "subtitle": "Leer koffie. Echt leren.",
         "allRightsReserved": "Alle rechten voorbehouden.",
         "buttons": {
@@ -15,7 +15,7 @@
         },
         "hero": {
             "eyebrow": "Specialty coffee · Micro-learning · 3D",
-            "title": "BrewLingo",
+            "title": "BrewLingo V1.0.0",
             "sub": "BrewLingo maakt de complexe wereld van specialty coffee behapbaar via korte, gamified lessen  begeleid door zwevende 3D-eilanden, niet door droge handboeken.",
             "cta": "Start mijn reis",
             "ghost": "Ontdek hoe het werkt",

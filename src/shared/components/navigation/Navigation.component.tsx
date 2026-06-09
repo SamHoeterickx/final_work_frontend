@@ -3,9 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { Link } from '@tanstack/react-router';
 import cxBind from 'classnames/bind';
 
-// ASSETS
-import logo from '@/assets/images/brewlingo_logo_v2.png';
-
 // CONSTANTS
 import { HOME_REDIRECT_PATH } from '@/modules/home/home.const';
 
@@ -20,7 +17,7 @@ export const Navigation: FC = () => {
     return (
         <nav className={cx('cNav')}>
             <Link to={HOME_REDIRECT_PATH}>
-                <img src={logo} className={cx('cNav__logo')} />
+                <img src={'images/brewlingo_logo_v2.png'} className={cx('cNav__logo')} />
             </Link>
             <div className={cx('cNav__links')}>
                 <a href="#features" className={cx('cNav__link')}>
