@@ -1,0 +1,235 @@
+@import '../../../styles/_design.system';
+
+.cPage {
+    min-height: 100vh;
+    background-color: $color-background;
+    font-family: 'Vanguard-DemiBold';
+    color: $color-text-primary;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.cMain {
+    flex: 1;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 6rem 2.5rem 5rem;
+    width: 100%;
+}
+
+.cHeader {
+    margin-bottom: 5rem;
+
+    &__cCommingSoon {
+        background-color: $color-primary;
+        padding: 1rem 3rem;
+        border-radius: 999px;
+
+        &__text {
+            font-family: 'Vanguard-Regular';
+            text-transform: uppercase;
+            color: $color-text-secondary;
+            text-align: left;
+            font-size: 1.25rem;
+        }
+    }
+
+    &__title {
+        font-size: clamp(3rem, 8vw, 6.5rem);
+        font-family: 'Vanguard-DemiBold';
+        font-weight: 800;
+        line-height: 1;
+        margin: 0 0 1.5rem;
+        opacity: 0;
+        animation: fadeUp 0.7s 0.25s ease forwards;
+    }
+
+    &__info {
+        font-size: 1.05rem;
+        line-height: 1.75;
+        color: $color-text-muted;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        max-width: 640px;
+        margin: 0;
+        opacity: 0;
+        animation: fadeUp 0.6s 0.25s ease forwards;
+    }
+}
+
+.cSections {
+    display: flex;
+    flex-direction: column;
+}
+
+.cForm {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__wForm {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+
+        &__cInput {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.5rem;
+
+            &__label {
+                font-size: 1rem;
+                font-family: 'Helvetica Neue', Helvetica, sans-serif;
+                color: $color-text-primary;
+                font-weight: 500;
+
+                a {
+                    color: $color-text-inverted;
+                    text-decoration: underline;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+
+            &__emailInput,
+            &__platformInput {
+                width: 100%;
+                padding: 1rem 1.25rem;
+                border: 2px solid $color-border;
+                border-radius: 12px;
+                background-color: transparent;
+                color: $color-text-primary;
+                font-family: 'Helvetica Neue', Helvetica, sans-serif;
+                font-size: 1rem;
+                transition: border-color 0.2s ease;
+
+                &:focus {
+                    outline: none;
+                    border-color: $color-text-inverted;
+                }
+            }
+        }
+
+        &__cCheckbox {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+
+            input[type='checkbox'] {
+                -webkit-appearance: auto;
+                appearance: auto;
+                width: 1.25rem;
+                height: 1.25rem;
+                accent-color: $color-text-inverted;
+                cursor: pointer;
+                flex-shrink: 0;
+            }
+        }
+
+        &__cta {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            background: $color-text-inverted;
+            color: #fff;
+            font-family: 'Vanguard-DemiBold', 'Helvetica Neue', Helvetica, sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1.5rem 3rem;
+            border-radius: 60px;
+            transition:
+                background 0.25s,
+                transform 0.15s;
+
+            &:hover {
+                background: $color-text-inverted;
+                transform: translateY(-2px);
+            }
+            &:active {
+                transform: translateY(0);
+            }
+        }
+    }
+
+    &__error {
+        color: #ef4444;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 0.875rem;
+        margin-top: -0.5rem;
+    }
+
+    &__cPeopleCount {
+        width: 100%;
+        max-width: 500px;
+
+        display: flex;
+        justify-content: center;
+        gap: .3rem;
+
+        margin-top: 2.5rem;
+        padding: 2.5rem;
+
+        border-top: 2pt solid $color-border;
+
+        p {
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            color: $color-text-primary;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+
+        &__bold {
+            font-weight: 800;
+        }
+        
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 640px) {
+    .cMain {
+        padding: 4rem 1.25rem 4rem;
+    }
+
+    .cHeader {
+        margin-bottom: 3rem;
+    }
+
+    .cSections {
+        margin-left: 0.5rem;
+    }
+
+    .cSection {
+        gap: 1.25rem;
+        padding: 2rem 0 2rem 1.75rem;
+
+        &__num {
+            display: none;
+        }
+
+        &__title {
+            font-size: 1.2rem;
+        }
+    }
+}

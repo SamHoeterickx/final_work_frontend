@@ -134,5 +134,22 @@
         "section2Content": "Navigate to your profile or account settings from the main dashboard.",
         "section3Title": "3. Delete Account",
         "section3Content": "Scroll to the bottom and tap 'Delete Account'. Confirm your choice. Please note that this action is irreversible and all your progress, streaks, and XP will be permanently lost."
+    },
+    "signUp": {
+        "title": "Get Early Access",
+        "info": "Leave your email and preferred platform to get notified the moment BrewLingo launches.",
+        "people": "people already on the waitlist",
+        "inputs": {
+            "email": "Email address",
+            "platform": "Preferred platform",
+            "accepted": "I agree to the",
+            "and": "and"
+        },
+        "buttons": {
+            "notify": "Notify me at launch"
+        },
+        "errors": {
+            "form": "Please fill in all fields and accept the policies."
+        }
     }
 }

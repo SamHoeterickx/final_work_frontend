@@ -134,5 +134,22 @@
         "section2Content": "Navigeer naar je profiel of accountinstellingen vanaf het hoofddashboard.",
         "section3Title": "3. Account verwijderen",
         "section3Content": "Scroll naar beneden en tik op 'Account verwijderen'. Bevestig je keuze. Let op: deze actie is onomkeerbaar en al je voortgang, streaks en XP gaan permanent verloren."
+    },
+    "signUp": {
+        "title": "Krijg vroegtijdige toegang",
+        "info": "Laat je e-mailadres en voorkeursplatform achter om een melding te ontvangen zodra BrewLingo lanceert.",
+        "people": "mensen die al op de wachtlijst staan",
+        "inputs": {
+            "email": "E-mailadres",
+            "platform": "Voorkeursplatform",
+            "accepted": "Ik ga akkoord met de",
+            "and": "en"
+        },
+        "buttons": {
+            "notify": "Meld mij aan voor de lancering"
+        },
+        "errors": {
+            "form": "Vul alstublieft alle velden in en accepteer het beleid."
+        }
     }
 }

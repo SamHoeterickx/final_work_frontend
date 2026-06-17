@@ -4,3 +4,8 @@ export enum ELocales {
     FR = 'fr',
     includes = "includes"
 }
+
+export enum EPlatform {
+    IOS = 'ios',
+    ANDROID = 'android'
+}

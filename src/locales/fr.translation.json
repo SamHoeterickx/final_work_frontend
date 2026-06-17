@@ -134,5 +134,22 @@
         "section2Content": "Naviguez vers votre profil ou les paramètres de votre compte depuis le tableau de bord principal.",
         "section3Title": "3. Supprimer le compte",
         "section3Content": "Faites défiler vers le bas et appuyez sur 'Supprimer le compte'. Confirmez votre choix. Veuillez noter que cette action est irréversible et que toute votre progression, vos séries et vos XP seront définitivement perdus."
+    },
+    "signUp": {
+        "title": "Obtenir un accès anticipé",
+        "info": "Laissez votre adresse e-mail et votre plateforme préférée pour être averti dès le lancement de BrewLingo.",
+        "people": "les personnes déjà sur la liste d'attente",
+        "inputs": {
+            "email": "Adresse e-mail",
+            "platform": "Plateforme préférée",
+            "accepted": "J'accepte les",
+            "and": "et"
+        },
+        "buttons": {
+            "notify": "M'avertir lors du lancement"
+        },
+        "errors": {
+            "form": "Veuillez remplir tous les champs et accepter les conditions."
+        }
     }
 }
