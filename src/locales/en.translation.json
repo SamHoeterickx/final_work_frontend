@@ -139,6 +139,10 @@
         "title": "Get Early Access",
         "info": "Leave your email and preferred platform to get notified the moment BrewLingo launches.",
         "people": "people already on the waitlist",
+        "success": {
+            "title": "You're on the list!",
+            "message": "Thank you for subscribing! Keep an eye on your inbox—we'll let you know the moment we launch."
+        },
         "inputs": {
             "email": "Email address",
             "platform": "Preferred platform",

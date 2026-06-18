@@ -139,6 +139,10 @@
         "title": "Obtenir un accès anticipé",
         "info": "Laissez votre adresse e-mail et votre plateforme préférée pour être averti dès le lancement de BrewLingo.",
         "people": "les personnes déjà sur la liste d'attente",
+        "success": {
+            "title": "Vous êtes sur la liste !",
+            "message": "Merci pour votre inscription ! Gardez un œil sur votre boîte de réception, nous vous préviendrons dès notre lancement."
+        },
         "inputs": {
             "email": "Adresse e-mail",
             "platform": "Plateforme préférée",

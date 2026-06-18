@@ -139,6 +139,10 @@
         "title": "Krijg vroegtijdige toegang",
         "info": "Laat je e-mailadres en voorkeursplatform achter om een melding te ontvangen zodra BrewLingo lanceert.",
         "people": "mensen die al op de wachtlijst staan",
+        "success": {
+            "title": "Je staat op de lijst!",
+            "message": "Bedankt voor je inschrijving! Houd je inbox in de gaten, we laten het je weten zodra we lanceren."
+        },
         "inputs": {
             "email": "E-mailadres",
             "platform": "Voorkeursplatform",
