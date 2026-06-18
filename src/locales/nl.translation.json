@@ -138,7 +138,7 @@
     "signUp": {
         "title": "Krijg vroegtijdige toegang",
         "info": "Laat je e-mailadres en voorkeursplatform achter om een melding te ontvangen zodra BrewLingo lanceert.",
-        "people": "mensen die al op de wachtlijst staan",
+        "people": "mensen staan al op de wachtlijst",
         "success": {
             "title": "Je staat op de lijst!",
             "message": "Bedankt voor je inschrijving! Houd je inbox in de gaten, we laten het je weten zodra we lanceren."

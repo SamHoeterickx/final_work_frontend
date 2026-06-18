@@ -8,6 +8,7 @@ import { HOME_REDIRECT_PATH } from '../home.const';
 
 // STYLES
 import styles from './home.module.scss';
+import { SIGN_UP_PATH } from '@/modules/signUp/signUp.const';
 
 const cx = cxBind.bind(styles);
 
@@ -48,7 +49,7 @@ export const HomePage: FC = () => {
                 <h1 className={cx('cHero__title')}>{t('home.hero.title')}</h1>
                 <p className={cx('cHero__sub')}>{t('home.hero.sub')}</p>
                 <div className={cx('cHero__actions')}>
-                    <Link to={HOME_REDIRECT_PATH} className={cx('cHero__cta')}>
+                    <Link to={SIGN_UP_PATH} className={cx('cHero__cta')}>
                         {t('home.hero.cta')}
                     </Link>
                     <a href="#how" className={cx('cHero__ghost')}>
@@ -164,7 +165,7 @@ export const HomePage: FC = () => {
             <section className={cx('cCtaBlock')}>
                 <h2 className={cx('cCtaBlock__title')}>{t('home.ctaBlock.title')}</h2>
                 <p className={cx('cCtaBlock__sub')}>{t('home.ctaBlock.sub')}</p>
-                <Link to={HOME_REDIRECT_PATH} className={cx('cHero__cta')}>
+                <Link to={SIGN_UP_PATH} className={cx('cHero__cta')}>
                     {t('home.ctaBlock.cta')}
                 </Link>
             </section>
